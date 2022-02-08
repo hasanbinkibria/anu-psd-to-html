@@ -1,0 +1,126 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+     .navbar-light .navbar-toggler {
+         color: #fff;
+         border-color: #fff;
+     }
+
+     img.logo {
+         max-width: 110px;
+     }
+
+     .slider-text h3 {
+         font-size: 22px;
+     }
+
+     .slider-text h1 {
+         font-size: 50px;
+         padding: 10px 22px;
+     }
+
+     .slider-text h4 {
+         font-size: 20px;
+     }
+     .about-item {
+        max-width: 86%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .service-item {
+        max-width: 80%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .portfolio-item {
+        position: relative;
+        overflow: hidden;
+        max-width: 80%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .pricing-card {
+        max-width: 80%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .single-counter {
+        max-width: 80%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .social-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+ }
+
+ /* // Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     .navbar-light .navbar-toggler {
+         color: #fff;
+         border-color: #fff;
+     }
+
+     img.logo {
+         max-width: 120px;
+     }
+
+     .slider-text h3 {
+         font-size: 24px;
+     }
+
+     .slider-text h1 {
+         font-size: 65px;
+         padding: 12px 24px;
+     }
+
+     .slider-text h4 {
+         font-size: 26px;
+     }
+     .social-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+ }
+
+ /* // Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+     .navbar-light .navbar-toggler {
+         color: #fff;
+         border-color: #fff;
+     }
+
+     img.logo {
+         max-width: 130px;
+     }
+
+     .slider-text h3 {
+         font-size: 28px;
+     }
+
+     .slider-text h1 {
+         font-size: 75px;
+         padding: 12px 24px;
+     }
+
+     .slider-text h4 {
+         font-size: 28px;
+     }
+ }
+
+ /* // Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+     img.logo {
+         max-width: 140px;
+     }
+
+ }
+
+ /* // Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {}
